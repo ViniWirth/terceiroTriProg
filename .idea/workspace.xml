@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="917371a1-e9bd-4160-8850-ac88001be4eb" name="Changes" comment="Exercicio do sistema de pagamento feito">
-      <change afterPath="$PROJECT_DIR$/src/aula32/Lista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula32/Main.java" afterDir="false" />
+    <list default="true" id="917371a1-e9bd-4160-8850-ac88001be4eb" name="Changes" comment="aula 32 sobre listas, 18/09, lista e main falta implementar os métodos restantes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula32/Lista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula32/Lista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula32/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula32/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,13 +127,22 @@
       <option name="project" value="LOCAL" />
       <updated>1725458036780</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="aula 32 sobre listas, 18/09, lista e main falta implementar os métodos restantes">
+      <option name="closed" value="true" />
+      <created>1726665485313</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726665485314</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primeiro commit do trimestre" />
     <MESSAGE value="Exemplo heranca multipla feita" />
     <MESSAGE value="Exercicio do sistema de pagamento feito" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercicio do sistema de pagamento feito" />
+    <MESSAGE value="aula 32 sobre listas, 18/09, lista e main falta implementar os métodos restantes" />
+    <option name="LAST_COMMIT_MESSAGE" value="aula 32 sobre listas, 18/09, lista e main falta implementar os métodos restantes" />
   </component>
 </project>
