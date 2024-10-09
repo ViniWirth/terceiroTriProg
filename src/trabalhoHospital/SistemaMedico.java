@@ -12,13 +12,12 @@ public class SistemaMedico {
     public static void main(String[] args) {
         int opcao;
         do {
-            System.out.println("\n=== Sistema de Gerenciamento Médico ===");
-            System.out.println("1. Incluir Paciente");
-            System.out.println("2. Alterar Paciente");
-            System.out.println("3. Realizar Atendimento");
-            System.out.println("4. Listar Pacientes");
-            System.out.println("5. Mostrar Paciente");
-            System.out.println("6. Apagar Paciente");
+            System.out.println("1. Incluir paciente");
+            System.out.println("2. Alterar paciente");
+            System.out.println("3. Realizar atendimento");
+            System.out.println("4. Listar pacientes");
+            System.out.println("5. Mostrar paciente");
+            System.out.println("6. Apagar paciente");
             System.out.println("0. Sair");
             System.out.print("Escolha uma opção: ");
             opcao = Integer.parseInt(scanner.nextLine());
@@ -52,9 +51,9 @@ public class SistemaMedico {
     }
 
     private static void incluirPaciente() {
-        System.out.print("Nome do Paciente: ");
+        System.out.print("Nome do paciente: ");
         String nome = scanner.nextLine();
-        System.out.print("Data de Nascimento (AAAA-MM-DD): ");
+        System.out.print("Data de nascimento (AAAA-MM-DD): ");
         LocalDate dataNascimento = LocalDate.parse(scanner.nextLine());
 
         Paciente novoPaciente = new Paciente(nome, dataNascimento);
@@ -65,21 +64,21 @@ public class SistemaMedico {
     private static void alterarPaciente() {
         Paciente paciente = buscarPaciente();
         if (paciente != null) {
-            System.out.print("Novo Nome: ");
+            System.out.print("Novo nome: ");
             paciente.setNome(scanner.nextLine());
             System.out.println("Dados do paciente alterados com sucesso!");
         }
     }
 
     private static Paciente buscarPaciente() {
-        System.out.print("Nome do Paciente: ");
+        System.out.print("Nome do paciente: ");
         String nome = scanner.nextLine();
         for (Paciente p : pacientes) {
             if (p.getNome().equalsIgnoreCase(nome) && p.isAtivo()) {
                 return p;
             }
         }
-        System.out.println("Paciente não encontrado ou está desativado!");
+        System.out.println("Paciente não encontrado ou está desativado");
         return null;
     }
 
@@ -95,7 +94,7 @@ public class SistemaMedico {
     }
 
     private static void listarPacientes() {
-        System.out.println("=== Lista de Pacientes Ativos ===");
+        System.out.println("Lista de Pacientes Ativos");
         for (Paciente paciente : pacientes) {
             if (paciente.isAtivo()) {
                 System.out.println(paciente);

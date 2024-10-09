@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="917371a1-e9bd-4160-8850-ac88001be4eb" name="Changes" comment="metodos complementares feitos">
-      <change afterPath="$PROJECT_DIR$/src/trabalhoHospital/Atendimento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trabalhoHospital/Paciente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trabalhoHospital/SistemaMedico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="917371a1-e9bd-4160-8850-ac88001be4eb" name="Changes" comment="finalizar exercicio hospital">
+      <change afterPath="$PROJECT_DIR$/src/trabalhoHospital/img.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726667037596</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="finalizar exercicio hospital">
+      <option name="closed" value="true" />
+      <created>1728446610069</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1728446610069</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -154,6 +159,7 @@
     <MESSAGE value="Exercicio do sistema de pagamento feito" />
     <MESSAGE value="aula 32 sobre listas, 18/09, lista e main falta implementar os métodos restantes" />
     <MESSAGE value="metodos complementares feitos" />
-    <option name="LAST_COMMIT_MESSAGE" value="metodos complementares feitos" />
+    <MESSAGE value="finalizar exercicio hospital" />
+    <option name="LAST_COMMIT_MESSAGE" value="finalizar exercicio hospital" />
   </component>
 </project>
